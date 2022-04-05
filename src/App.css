@@ -1,0 +1,141 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 130px;
+  gap: 130px;
+}
+.flexRow1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCoi {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  /* background-color: lightblue; */
+  width: 40%;
+}
+.flexCoi1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 80px;
+  /* background-color: thistle; */
+  width: 60%;
+}
+.fontcolor {
+  font-size: 20px;
+  color: #3b76ef;
+}
+.inputbox {
+  background-color: rgba(59, 118, 239, 0.05);
+  border: rgba(59, 118, 239, 0.05);
+  width: 200px;
+  height: 44px;
+  margin: 20px 30px 0px 20px;
+  color: #545454;
+}
+
+.box {
+  background-color: #3b76efcc;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 80px;
+  border-radius: 15px;
+}
+
+.box1 {
+  text-align: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ace1ff;
+  color: #545454;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-color: #86CCF3;
+  border-style: solid;
+  border-width: 3px;
+  gap: 30px;
+}
+
+.buttom1 {
+  width: 111px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.buttom2 {
+  width: 111px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: 0;
+  margin: -10px 0px;
+}
+.buttom3 {
+  width: 111px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #01bd44;
+  color: white;
+  border: 0;
+}
+.buttom4 {
+  width: 111px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #3b76ef;
+  color: white;
+  border: 0;
+  margin: -10px 0px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  right: 170px;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.img {
+  width: 311px;
+  text-align: center;
+}
+
+.boxcenter {
+  text-align: center;
+  margin: 70px 0px 0px 0px;
+}
+
+.nobutton {
+  border: white;
+  width: 111px;
+  height: 42px;
+  background-color: white;
+}
+
+.fontcolorClosemargin {
+    font-size: 20px;
+    color: #3b76ef;
+    margin: 0px;
+  }
+
+.fontblackClosemargin {
+    font-size: 14xpx;
+    color: black;
+    margin: 0px;
+  }
+
+.inputbox1{
+    width: 580px;
+    height: 79px;
+    padding: 10px 20px;
+    background-color: rgba(59, 118, 239, 0.05);
+    border: none;
+}

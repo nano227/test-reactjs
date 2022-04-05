@@ -1,0 +1,24 @@
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    background-color: #3B76EF;
+    color: white;
+    gap: 18px;
+    padding: 0px 60px;
+    max-width: 100%;
+    width: 100vw;
+
+}
+
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    position: absolute; 
+    top:20px;
+    right: 100px;
+    gap: 20px;
+} 
