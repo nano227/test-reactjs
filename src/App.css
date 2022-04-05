@@ -61,33 +61,27 @@
   gap: 30px;
 }
 
-.buttom1 {
+.buttom1, .buttom2, .buttom3, .buttom4{
   width: 111px;
   height: 42px;
-  background-color: #ffffff;
   border-radius: 5px;
 }
+
+.buttom1 {
+  background-color: #ffffff;
+}
 .buttom2 {
-  width: 111px;
-  height: 42px;
-  border-radius: 5px;
   background-color: red;
   color: white;
   border: 0;
   margin: -10px 0px;
 }
 .buttom3 {
-  width: 111px;
-  height: 42px;
-  border-radius: 5px;
   background-color: #01bd44;
   color: white;
   border: 0;
 }
 .buttom4 {
-  width: 111px;
-  height: 42px;
-  border-radius: 5px;
   background-color: #3b76ef;
   color: white;
   border: 0;

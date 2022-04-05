@@ -8,10 +8,6 @@ import { React, useState } from "react";
 function App() {
   const [addButton, setAddButton] = useState(false);
 
-  const clickHandler = () => {
-    setAddButton((e) => !e);
-  };
-
   const toggle = addButton ? 
     <button className="buttom2">ผู้ป่วยออก</button> : <button className="buttom4">เเก้ไขข้อมูล</button>
 
@@ -45,7 +41,7 @@ function App() {
             <p>(Wong-Baker FACES Pain Rating Scale)</p>
           </div>
           <div className="box2">
-            <img src={img1}></img>
+            <img alt="" src={img1}></img>
             <p>
               ไม่มีอาการ<br></br>
               No Hurt
@@ -57,7 +53,7 @@ function App() {
           <div className="flexRow1">
             <div className="right">
               <button className="buttom1">ย้อนกลับ</button>
-              <button className="nobutton" onClick={clickHandler}>{toggle}</button>
+              <button className="nobutton" onClick={setAddButton(!addButton)}>{toggle}</button>
               {addButton && <button className="buttom3">บันทึก</button>}
             </div>
             </div>
